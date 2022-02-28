@@ -1,4 +1,4 @@
-# Flask Tutorial
+# Flask Docker Tutorial
 
 ## Purpose
 This Docker Flask tutorial is intended to show students on how to start. I will use this in my own class rooms. Feel free to use it at your own risk.
