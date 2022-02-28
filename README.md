@@ -64,7 +64,7 @@ docker run --name=flask --volume /path/to/the/app/app.py:/app/app.py:ro -d -p 50
 
 If you need to stop and delete your container
 ```Bash
-docker stop flask && docker rm flas
+docker stop flask && docker rm flask
 ```
 
 
