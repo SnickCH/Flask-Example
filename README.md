@@ -10,7 +10,7 @@ This Docker Flask tutorial is intended to show students on how to start. I will 
 3. We will cerate a local docker-image with the runtime for flask with your defined requirements
 4. We will startup the container and mount on container creation your app.py into the container
 
-At point 4. we could just exchange the app.py content and restart the container. So we can reuse the container, as long as the requirements are met. Because it is planned to do some changes there (as soon as the tutorial will be updated) we will use it like this. It also gives a good exmaple on howto mount files into a container. For a productive app it would probably make more sense to coppy the app.py into the image - but this depends on the context.
+At point 4. we could just exchange the app.py content and restart the container. So we can reuse the container, as long as the requirements are met. Because it is planned to do some changes there (as soon as the tutorial will be updated) we will use it like this. It also gives a good example on howto mount files into a container. For a productive app it would probably make more sense to coppy the app.py into the image - but this depends on the context.
 
 
 ## Docker
