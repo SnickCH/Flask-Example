@@ -59,8 +59,15 @@ docker image inspect flask-tutorial
 We start now the container with the application
 
 ```Bash
-docker run --name=flask --volume /path/to/the/app:/app -d -p 5000:5000 flask-tutorial
+docker run --name=flask --volume /path/to/the/app/app.py:/app/app.py:ro -d -p 5000:5000 flask-tutorial
 ```
+
+If you need to stop and delete your container
+```Bash
+docker stop flask && docker rm flas
+```
+
+
 ###  Docker test our application
 
 We can now access the application in a browser (Firefox, Chrome etc.)
