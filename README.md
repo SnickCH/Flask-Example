@@ -30,7 +30,7 @@ At point 4. we could just exchange the app.py content and restart the container.
 FROM python:3
 #We define the directory where everything else will be run
 WORKDIR /app
-# We copy just the requirements.txt first to leverage Docker cache
+# We copy the requirements.txt so we can use this for the pip installation
 COPY ./requirements.txt /app/requirements.txt
 #We run pip to install all requirements that were defined in requirements.txt 
 RUN pip install --no-cache-dir -r requirements.txt
