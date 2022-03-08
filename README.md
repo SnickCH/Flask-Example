@@ -56,13 +56,13 @@ docker image inspect flask-tutorial
 ```
 
 ###  Docker run
-We start now the container with the application
+We start now the container with the application and give the name "flask" to the container
 
 ```Bash
 docker run --name=flask --volume /path/to/the/app/app.py:/app/app.py:ro -d -p 5000:5000 flask-tutorial
 ```
 
-If you need to stop and delete your container
+If you need to stop and delete your container (named "flask")
 ```Bash
 docker stop flask && docker rm flask
 ```
